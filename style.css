@@ -8,10 +8,11 @@
 }
 
 /* Nav bar style section */
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-between;
 }
+
 .nav-title {
     color: rgb(13, 19, 33);
     font-size: 28px;
@@ -21,7 +22,7 @@
     margin-bottom: 47px;
 }
 
-.download-resume-btn{
+.download-resume-btn {
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     padding: 17px 24px 17px 24px;
@@ -34,3 +35,52 @@
     margin-bottom: 35px;
     cursor: pointer;
 }
+
+.banner-container {
+    background-image: url("./images/Hero-bg.png");
+    width: 100vw;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 74px;
+}
+
+.banner-container img {
+    margin-top: 26px;
+    width: 240.28px;
+    height: 240px;
+}
+
+.banner-container h1 {
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.banner-container p {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.banner-container button {
+    margin-top: 32px;
+    border-radius: 8px;
+    background-color: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+/* Learn more Section */

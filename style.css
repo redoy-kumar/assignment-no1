@@ -257,3 +257,79 @@
     border-radius: 16px;
     overflow: hidden;
 }
+
+/* Current target section */
+
+.current-target-container {
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 144px;
+}
+
+.current-target-box {
+    width: 946px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.current-target-box h2 {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.current-target-box p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Current target skills */
+.current-target-skills {
+    margin-top: 48px;
+    width: 1140px;
+    height: 300px;
+    display: flex;
+}
+
+.current-target-innerbox {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.current-target-innerbox img {
+    width: 56px;
+    height: 56px;
+    align-items: start;
+}
+
+.current-target-innerbox a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: black;
+}
+
+#html {
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    margin-right: 24px;
+}
+
+#css {
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    margin-right: 24px;
+}
+
+#js {
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+}
+
+/* Next target section */

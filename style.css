@@ -358,6 +358,11 @@
     align-items: center;
 }
 
+.next-target-innerbox img{
+    width: 108px;
+    height: 108px;
+}
+
 .next-target-content{
     margin-left: 24px;
     display: flex;
@@ -393,6 +398,10 @@
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     margin-bottom: 24px;
+}
+
+#next-section{
+    margin-bottom: 48px;
 }
 
 /* Support section */
